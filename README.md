@@ -1,2 +1,4 @@
 # rsschool-cv
-https://crazymegapencil.github.io/rsschool-cv/cv
+rsschool-cv-html
+https://crazymegapencil.github.io/rsschool-cv/
+gh-pages
