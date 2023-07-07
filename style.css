@@ -5,35 +5,150 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 body {
-    background-image: url(./assets/img/background.png);
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    min-width: 1200px;
 }
 
-li, a {
+.nav__links li, a {
     color:#ffffff;
-    text-decoration: none;
     font-size: 16px;
     font-weight: 300;
 }
+
 header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background-color: #1c1c1c;
 }
+
 .nav__links {
     list-style: none;
     
 }
+
 .nav__links_item {
     display: inline-block;
     padding: 10px 20px;
 }
+
 a {
     transition: all 0.3s ease 0s;
 }
+
 a:hover {
     color: #918c8c;
+}
+
+.line {
+    border: 1px solid #1c1c1c;
+}
+
+.bold-line {
+    border: 5px solid #1c1c1c;
+    border-radius: 5px;
+    margin: 0px 15%;
+}
+
+.info-block_a {
+    text-decoration: underline;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-cards__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.info-main_image {
+    height: 260px;
+    width: 260px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 15px rgba(46, 46, 46, 0.7);
+    overflow: hidden;
+}
+
+.info-main_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-block {
+    background: linear-gradient(45deg, #e7e5e5,#e7e7e7,#bdbdbd);
+    box-shadow: 2px 3px 15px rgba(46, 46, 46, 0.7);
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 300px;
+    height: 250px;
+    margin: 50px 0px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+.info-block:hover {
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+  }
+
+.info-main_info {
+    text-align: center;
+}
+
+.text {
+    color:black;
+}
+
+.icon {
+    color: black;
+}
+
+footer {
+    display: flex;
+    background-color: #1c1c1c;
+    justify-content: space-between;
+}
+
+.footer__text {
+    color: #ffffff;
+    margin: 0px 20px;
+}
+
+.rsschool-logo {
+    display: flex;
+    width: 30%;
+    margin: 10px;
+    align-self: flex-end;
+    filter: invert();
+}
+
+.footer__elements {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
 }
