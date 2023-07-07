@@ -9,13 +9,16 @@
     text-decoration: none;
 }
 
+.wrapper {
+    width: 1200px;
+}
+
 body {
     background-color: #ebebeb;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
-    min-width: 1200px;
 }
 
 .nav__links li, a {
